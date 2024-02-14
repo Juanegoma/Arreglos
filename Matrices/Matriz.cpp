@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-char calculadora [5][3] 
+/*string calculadora [5][3]; 
 
 //Fila 1
 calculadora [0][0] = "1";
@@ -32,7 +32,7 @@ calculadora [4][2] = "√";
 
 for (int i = 0; i <5; i++){
 
-    for (int j = 0; j <5; j++){
+    for (int j = 0; j <3; j++){
 
         cout << calculadora [i][j];
 }
@@ -42,7 +42,26 @@ for (int i = 0; i <5; i++){
 
 
 
+*/
+
+int fila=0;
+cout<<"Ingrese la cantidad de filas que desea: ";
+cin>>fila;
+int columna=0;
+cout<<"Ingrese la cantidad de columnas que desea: ";
+cin>>columna;
+
+
+
+
+
+
+
+
 
 return 0;
 
+
+
 }
+
